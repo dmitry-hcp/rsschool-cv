@@ -10,11 +10,12 @@
 
 
 ## About Myself:
-I started studying at *RS School*. I want to study on the course *"FRONT-END. STAGE 0"*
+    I started studying at *RS School*. I want to study on the course *"FRONT-END. STAGE 0"*
 ====
 
 ## Skills:
     * Git/Github
+===
 
 
 ## Code Explame:
