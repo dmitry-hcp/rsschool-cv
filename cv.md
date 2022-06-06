@@ -1,5 +1,5 @@
 # Dmitry Ivanov
-[](C:\Users\1\.vscode\rs_school\53106.png)
+[](https://avatars.githubusercontent.com/u/106625920?s=400&u=8979d043b870f5da3f9698222e50baff4395d508&v=4)
 
 ## Contact information:
 * Phone: +7(999)158-43-84
