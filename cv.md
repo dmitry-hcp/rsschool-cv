@@ -1,21 +1,20 @@
 # Dmitry Ivanov
 
 ## Contact information:
-
-    * Phone: +7(999)158-43-84
-    * E-mail: ivanov.dmtr.iv@gmail.com
-    * GitHub: @dmitry-hcp
-    * Discord: Dmitry Ivanov 
-    * Telegram: @Dmtr_Ivch
+* Phone: +7(999)158-43-84
+* E-mail: ivanov.dmtr.iv@gmail.com
+* GitHub: @dmitry-hcp
+* Discord: Dmitry Ivanov 
+* Telegram: @Dmtr_Ivch
 
 
 ## About Myself:
-    I started studying at *RS School*. I want to study on the course *"FRONT-END. STAGE 0"*
-====
+I started studying at *RS School*. I want to study on the course *"FRONT-END. STAGE 0"*
+
 
 ## Skills:
-    * Git/Github
-===
+* Git/Github
+
 
 
 ## Code Explame:
