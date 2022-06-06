@@ -18,12 +18,12 @@ I started studying at *RS School*. I want to study on the course *"FRONT-END. ST
 
 
 ## Code Explame:
-    ```
-    function multiply(a, b){
-        var res = a * b
-        return res;
-    }
-    ```
+```
+function multiply(a, b){
+    var res = a * b
+    return res;
+}
+```
 
 
 ## Work experience:
@@ -32,7 +32,7 @@ I started studying at *RS School*. I want to study on the course *"FRONT-END. ST
 
 
 ## Education:
-*Samara State Aerospace University: 
+* Samara State Aerospace University: 
     + Computer Science (BE)
 
 
