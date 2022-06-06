@@ -1,4 +1,5 @@
 # Dmitry Ivanov
+[](C:\Users\1\.vscode\rs_school\53106.png)
 
 ## Contact information:
 * Phone: +7(999)158-43-84
