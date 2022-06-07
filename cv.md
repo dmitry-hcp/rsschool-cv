@@ -1,5 +1,5 @@
 # Dmitry Ivanov
-[](https://avatars.githubusercontent.com/u/106625920?s=400&u=8979d043b870f5da3f9698222e50baff4395d508&v=4)
+![](..%5C53106.png)
 
 ## Contact information:
 * Phone: +7(999)158-43-84
