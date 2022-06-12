@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'Rubik';
+    src: url(assets/fonts/Rubik-VariableFont_wght.ttf);
+}
+* {
+    box-sizing: border-box;
+}
+body {
+   font-family: 'Rubik'; 
+   min-height: 100vh;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   
+}
+
+.header { 
+    border: 1px solid red;
+}
+.main {
+    border: 1px solid black;
+}
+.footer { 
+    border: 1px solid burlywood; 
+}
+.container {
+    max-width: 1440px;
+    margin: 0;
+}
