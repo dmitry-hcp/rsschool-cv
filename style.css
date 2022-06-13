@@ -60,3 +60,10 @@ html {
 .markdown {
     text-decoration: none;
 }
+.name {
+    border: 1px solid red;
+}
+.photo {
+    width: 121px;
+    height: 45;
+}
