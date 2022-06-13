@@ -4,81 +4,128 @@
 }
 
 * {
-    box-sizing: border-box;
+    box-sizing: border-box; 
 }
+
 body {
-   min-height: 100vh;
-   /*margin: 0;
-   padding: 0;*/
-   display: flex;
-   flex-direction: column;
-   justify-content: space-between;
-   font-family: 'Rubik';    
+   min-height: 100vh; 
+   margin: 0;
+   padding: 0; 
+   display: flex; 
+   flex-direction: column; 
+   justify-content: space-between; 
+   font-family: 'Rubik'; 
+   font-size: 16px;      
 }
+
 html {
-    scroll-behavior: smooth;
+    scroll-behavior: smooth; 
 }
 
 .header { 
-    border: 1px solid red; 
+    /* border: 1px solid red;  */
 }
+
 .main {
-    border: 1px solid black;
+    vertical-align: bottom ;
+    /* border: 1px solid black;  */
 }
+
 .footer { 
-    border: 1px solid burlywood;
+    /* border: 1px solid burlywood;  */
 }
+
 .container {
-    /* max-width: 1440px; */
-    margin: 0;
+    max-width: 1440px; 
+    margin: 0 auto; 
+    /* border: 1px solid orange; */
 }
+
 .main-container {
-    display: flex;
-    flex-wrap: wrap;
+    display: flex; 
+    flex-wrap: wrap; 
+    padding: 20px;
+    /* border: 1px rebeccapurple; */
 }
+
 .section {
-    width: 50%;
+    width: 50%; 
+    /* border: 1px solid rebeccapurple; */
 }
+
 @media (max-width: 768px) {
     .section {
-        width: 100%;
+        width: 100%; 
     }
 }
+
 .nav-list {
-    display: flex;
-    justify-content: center;
+    max-width: 100%;
+    display: flex; 
+    justify-content: center; 
     /* align-items: center; */
-    list-style: none;    
+    list-style: none;       
 }
+
 .nav-link {
-    padding: 0 20px;
-    line-height: 50px;
-    text-decoration: none;
-    transition: .3s;
+    padding: 0 20px; 
+    line-height: 50px; 
+    color: black; 
+    text-decoration: none; 
+    transition: .3s; 
 }
-.markdown {
-    text-decoration: none;
+
+.markdown-link {
+    color: black; 
+    text-decoration: none; 
 }
+.markdown-item :hover {
+    color: red; 
+}
+
 .name {
-    border: 1px solid red;
+    /* border: 1px solid red;  */
 }
+
 .photo {
-    width: 110px;
-    height: 50;
+    width: 110px; 
+    height: 50; 
 }
+
 .footer-list {
+    display: flex; 
+    justify-content: flex-start; 
+    align-items: center;
+    list-style: none; 
+}
+
+.footer-item {
     display: flex;
-    justify-content: first baseline;
-    list-style: none;
+    justify-content: flex-end;   
 }
 .github-link {
-    padding: 0 10px;
-    text-decoration: none;
+    padding: 0 10px; 
+    text-decoration: none; 
 }
+
 .school-logo {
-    width: 70px;
-    height: 35px;
+    width: 70px; 
+    height: 35px; 
     display: flex; 
-    /* justify-content: flex-end;  */
-    text-decoration: none;
+    justify-content:last baseline; 
+    text-decoration: none; 
 }
+.name {
+   /* text-transform: uppercase;  */
+}
+.nav-item a:hover {
+    color: red; 
+}
+
+.profile {
+    border: 1px solid blue;
+}
+.github-link:hover {
+    color: red;
+}
+
