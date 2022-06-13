@@ -27,7 +27,7 @@ html {
 }
 
 .main {
-    margin-bottom: auto;
+    /* margin-bottom: auto; */
     /* vertical-align: bottom ; */
     /* border: 1px solid black;  */
 }
@@ -92,6 +92,7 @@ html {
 
 .nav-list {
     display: flex; 
+    flex-wrap: wrap;
     justify-content: center;  
     align-items: center;
     /* max-width: 100%; */
