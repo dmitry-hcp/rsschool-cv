@@ -27,12 +27,9 @@ html {
 }
 
 .main {
-    vertical-align: bottom ;
+    margin-bottom: auto;
+    /* vertical-align: bottom ; */
     /* border: 1px solid black;  */
-}
-
-.footer { 
-    /* border: 1px solid burlywood;  */
 }
 
 .container {
@@ -52,18 +49,52 @@ html {
     width: 50%; 
     /* border: 1px solid rebeccapurple; */
 }
+.profile-section {
+    display: flex;
+    /* justify-content: space-around;  */
+    /* padding: 100px;  */
+    width: 100%;
+    /* border: 1px solid brown; */
+}
+
+.name-status {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start;  */
+    /* align-content: center;  */
+    text-align: center; 
+}
+
+.photo {
+    width: 200px; 
+    height: 140px; 
+    padding: 0 0 0 50px;
+}
+
+.status {
+    /*text-align:left;
+    padding: 0 0 0 8px;*/
+    /* border: 1px solid blueviolet; */
+}
+
+.name {
+    /* border: 1px solid red;  */
+}
 
 @media (max-width: 768px) {
     .section {
         width: 100%; 
     }
+    /*.nav-list {
+        width: 100%;
+    }*/
 }
 
 .nav-list {
-    max-width: 100%;
     display: flex; 
-    justify-content: center; 
-    /* align-items: center; */
+    justify-content: center;  
+    align-items: center;
+    /* max-width: 100%; */
     list-style: none;       
 }
 
@@ -82,49 +113,29 @@ html {
 .markdown-item :hover {
     color: red; 
 }
-
-.name {
-    /* border: 1px solid red;  */
-}
-
-.photo {
-    width: 110px; 
-    height: 50; 
-}
-
-.footer-list {
-    display: flex; 
-    justify-content: flex-start; 
-    align-items: center;
-    list-style: none; 
-}
-
-.footer-item {
+.footer-container {
     display: flex;
-    justify-content: flex-end;   
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    /* border: 1px solid firebrick; */
 }
+
 .github-link {
     padding: 0 10px; 
     text-decoration: none; 
+    color: black;
 }
 
 .school-logo {
     width: 70px; 
     height: 35px; 
-    display: flex; 
-    justify-content:last baseline; 
-    text-decoration: none; 
 }
-.name {
-   /* text-transform: uppercase;  */
-}
-.nav-item a:hover {
+
+.nav-item :hover {
     color: red; 
 }
 
-.profile {
-    border: 1px solid blue;
-}
 .github-link:hover {
     color: red;
 }

@@ -29,14 +29,12 @@
         <main class="main">
             <div class="container">
                 <div class="main-container">
-                    <section class="section" id="profile">
-                        <h1><section-title class="name">Dmitry Ivanov</section-title></h1> 
-                            <p>
-                                RS School student
-                            </p>
-                            <p> 
-                                <img class="photo" src="assets/img/53106.png" alt="profile-photo"> 
-                            </p>
+                    <section class="profile-section" id="profile">
+                        <div class="name-status">
+                            <h1><section-title class="name">Dmitry Ivanov</section-title></h1> 
+                                <p class="status">RS School student</p>
+                        </div>
+                        <p><img class="photo" src="assets/img/53106.png" alt="profile-photo"></p>
                     </section>
                     <section class="section" id="contacts">
                         <h2><section-title class="contacts">Contacts</section-title></h2>
@@ -90,14 +88,13 @@
         </main>      
         <footer class="footer">
             <div class="container">
-                <ul class="footer-list">
-                    <li class="footer-item">&copy; 2022</li>
-                    <li><a href="https://github.com/dmitry-hcp" class="github-link" target="_blank">dmitry-hcp</a></li>
-                    <li><a href="https://rs.school/js-stage0/" class="school-logo" target="_blank"> <img src="assets/img/rs_school_js.svg" alt="school-logo"></a></li>
-                </ul>
-            
-                    <!-- <a href="https://rs.school/js-stage0/" class="school-logo" target="_blank"> <img src="assets/img/rs_school_js.svg" alt="school logo"></a> -->
-                
+                <div class="footer-container">
+                    <div>
+                        &copy; 2022
+                        <a href="https://github.com/dmitry-hcp" class="github-link" target="_blank">dmitry-hcp</a>
+                    </div>
+                    <a href="https://rs.school/js-stage0/" class="school-logo" target="_blank"> <img src="assets/img/rs_school_js.svg" alt="school-logo"></a>
+                </div>                   
             </div>
         </footer>      
 </body>
